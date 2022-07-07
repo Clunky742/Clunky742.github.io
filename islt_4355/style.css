@@ -1,0 +1,39 @@
+h1 {
+    color: #cc6600
+}
+
+body {
+    margin: 0;
+}
+
+/*About Page CSS*/
+.aboutwrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 20fr 1fr;
+    gap: 5px 10px;
+    height: 930px;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.aboutwrap * {
+    /* background-color: blueviolet; */
+    text-align: center;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:2px;
+}
