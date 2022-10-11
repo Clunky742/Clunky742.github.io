@@ -1,0 +1,81 @@
+body {
+    background-color: #C6CAED;
+    /* background-color: #c0c0c0; */
+}
+
+h1 {
+    color: #6e0323;
+    font-family: custom;
+    text-align: center;
+}
+
+h2 {
+    color: #6e0323;
+    font-family: custom;
+    text-align: center;
+}
+
+/*Grid Containers for Pages-----------------------------------------------*/
+.homegrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, minmax(150px, auto));
+    gap: 5px 5px;
+    margin: 0 auto;
+    background-color: rgb(184, 156, 156);
+    /*padding: 5px;*/
+    height: 915px;
+    /*border: .3em solid black;*/
+}
+
+.aboutgrid {
+
+}
+
+.settinggrid {
+
+}
+
+.contactgrid {
+
+}
+
+.loggrid {
+
+}
+
+/*Grid Items--------------------------------------------------------------*/
+.homeheader {
+    grid-column: 1/5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: .3em solid black;
+}
+
+.homenav {
+    grid-column: 1/5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: .3em solid black;
+}
+
+.homemain {
+    grid-column: 1/5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: .3em solid black;
+}
+
+.homefooter {
+    grid-column: 1/5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border: .3em solid black;
+}
+
+/*Inside of Grid Containers*/
+.homegrid * {
+    /*background-color: rgb(184, 101, 101);*/
+    text-align: center;
+    /*border: .3em solid black;*/
+}
